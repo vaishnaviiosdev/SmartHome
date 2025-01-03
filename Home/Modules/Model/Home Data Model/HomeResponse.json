@@ -1,0 +1,64 @@
+{
+    "data": {
+        "profile": {
+            "name": "Chris Hemsworth",
+            "image": "https://picsum.photos/id/1/200/300"
+        },
+        "menu": [
+        {
+            "id": 1,
+            "name": "Living Room"
+        },
+        {
+            "id": 2,
+            "name": "Kitchen"
+        },
+        {
+            "id": 3,
+            "name": "Bedroom1"
+        },
+        {
+            "id": 4,
+            "name": "Dining Room"
+        }
+        ],
+        "gadgets": [
+        {
+            "id": 1,
+            "name": "AC",
+            "is_enabled": true
+        },
+        {
+            "id": 2,
+            "name": "Smart TV",
+            "is_enabled": false
+        },
+        {
+            "id": 3,
+            "name": "Table Lamp",
+            "is_enabled": false
+        },
+        {
+            "id": 4,
+            "name": "Router",
+            "is_enabled": false
+        },
+        {
+            "id": 5,
+            "name": "Speaker",
+            "is_enabled": false
+        },
+        {
+            "id": 6,
+            "name": "Microwave",
+            "is_enabled": true
+        },
+        {
+            "id": 7,
+            "name": "Refrigerator",
+            "is_enabled": true
+        }
+        ]
+    }
+}
+
