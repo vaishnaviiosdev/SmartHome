@@ -69,6 +69,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27C5E7DD2D27DF52001C18F4 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				8C47113B2D26CC210042CDB4 /* Main.storyboard */,
+				8C4711402D26CC210042CDB4 /* LaunchScreen.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
 		8C4711292D26CC200042CDB4 = {
 			isa = PBXGroup;
 			children = (
@@ -88,11 +97,10 @@
 		8C4711342D26CC210042CDB4 /* Home */ = {
 			isa = PBXGroup;
 			children = (
+				27C5E7DD2D27DF52001C18F4 /* StoryBoard */,
 				8C4711352D26CC210042CDB4 /* AppDelegate.swift */,
 				8C4711372D26CC210042CDB4 /* SceneDelegate.swift */,
-				8C47113B2D26CC210042CDB4 /* Main.storyboard */,
 				8C47113E2D26CC210042CDB4 /* Assets.xcassets */,
-				8C4711402D26CC210042CDB4 /* LaunchScreen.storyboard */,
 				8C4711432D26CC210042CDB4 /* Info.plist */,
 				8C4711582D26DDBC0042CDB4 /* Extension */,
 				8C47115F2D26E5890042CDB4 /* Modules */,
