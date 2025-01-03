@@ -110,7 +110,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Agc-zX-muR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1152" y="190"/>
+            <point key="canvasLocation" x="2021" y="188"/>
         </scene>
         <!--Profile View Controller-->
         <scene sceneID="qgg-Sy-q6O">
@@ -228,7 +228,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OlR-Ub-Ab4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1902" y="189"/>
+            <point key="canvasLocation" x="2708" y="188"/>
         </scene>
         <!--Home View Controller-->
         <scene sceneID="ov1-OF-cuE">
@@ -489,12 +489,23 @@
                                                                         <constraint firstAttribute="height" constant="24" id="xfH-JU-fXc"/>
                                                                     </constraints>
                                                                 </imageView>
+                                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="djD-ft-5Sh">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="36" height="36"/>
+                                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                    <connections>
+                                                                        <action selector="didIncrementButtonTapped:" destination="xdl-Yl-m48" eventType="touchUpInside" id="mkO-AD-FAJ"/>
+                                                                    </connections>
+                                                                </button>
                                                             </subviews>
                                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <constraints>
+                                                                <constraint firstAttribute="bottom" secondItem="djD-ft-5Sh" secondAttribute="bottom" id="6xk-To-PVS"/>
                                                                 <constraint firstItem="OVQ-sZ-CrQ" firstAttribute="centerX" secondItem="zpk-qW-BNI" secondAttribute="centerX" id="8rI-Mf-oVS"/>
                                                                 <constraint firstAttribute="height" constant="36" id="RL1-ou-eWw"/>
                                                                 <constraint firstItem="OVQ-sZ-CrQ" firstAttribute="centerY" secondItem="zpk-qW-BNI" secondAttribute="centerY" id="TL4-eo-R9J"/>
+                                                                <constraint firstAttribute="trailing" secondItem="djD-ft-5Sh" secondAttribute="trailing" id="TU1-Ns-Ihl"/>
+                                                                <constraint firstItem="djD-ft-5Sh" firstAttribute="leading" secondItem="zpk-qW-BNI" secondAttribute="leading" id="Vsa-Bz-IFa"/>
+                                                                <constraint firstItem="djD-ft-5Sh" firstAttribute="top" secondItem="zpk-qW-BNI" secondAttribute="top" id="dDV-kl-aRe"/>
                                                                 <constraint firstAttribute="width" secondItem="zpk-qW-BNI" secondAttribute="height" multiplier="1:1" id="qt9-ej-0Et"/>
                                                             </constraints>
                                                         </view>
@@ -508,12 +519,23 @@
                                                                         <constraint firstAttribute="width" constant="24" id="glX-j9-VRJ"/>
                                                                     </constraints>
                                                                 </imageView>
+                                                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dhV-80-Bw4">
+                                                                    <rect key="frame" x="0.0" y="0.0" width="36" height="36"/>
+                                                                    <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                                    <connections>
+                                                                        <action selector="didDecrementButtonTapped:" destination="xdl-Yl-m48" eventType="touchUpInside" id="3jM-Rd-t9J"/>
+                                                                    </connections>
+                                                                </button>
                                                             </subviews>
                                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <constraints>
                                                                 <constraint firstItem="DQC-2A-YFf" firstAttribute="centerY" secondItem="6M0-vU-8su" secondAttribute="centerY" id="Be0-6a-S9z"/>
+                                                                <constraint firstAttribute="trailing" secondItem="dhV-80-Bw4" secondAttribute="trailing" id="PeS-eJ-udc"/>
+                                                                <constraint firstItem="dhV-80-Bw4" firstAttribute="top" secondItem="6M0-vU-8su" secondAttribute="top" id="RCs-mc-Q4B"/>
                                                                 <constraint firstAttribute="width" secondItem="6M0-vU-8su" secondAttribute="height" multiplier="1:1" id="Swi-Mo-edF"/>
+                                                                <constraint firstAttribute="bottom" secondItem="dhV-80-Bw4" secondAttribute="bottom" id="WFS-8x-3S1"/>
                                                                 <constraint firstItem="DQC-2A-YFf" firstAttribute="centerX" secondItem="6M0-vU-8su" secondAttribute="centerX" id="jOY-1t-BNk"/>
+                                                                <constraint firstItem="dhV-80-Bw4" firstAttribute="leading" secondItem="6M0-vU-8su" secondAttribute="leading" id="kUZ-AN-mdW"/>
                                                                 <constraint firstAttribute="height" constant="36" id="mWU-JA-DyC"/>
                                                             </constraints>
                                                         </view>
@@ -530,7 +552,7 @@
                                                             <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
-                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="18°" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pP9-Dg-leQ">
+                                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="--" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pP9-Dg-leQ">
                                                             <rect key="frame" x="138" y="67" width="80" height="80"/>
                                                             <constraints>
                                                                 <constraint firstAttribute="width" constant="80" id="c7Q-VL-hhs"/>
@@ -592,6 +614,9 @@
                                             </userDefinedRuntimeAttributes>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <outlet property="temperatureLabel" destination="pP9-Dg-leQ" id="SK0-8e-S6E"/>
+                                        </connections>
                                     </tableViewCell>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" reuseIdentifier="AppliancesTableViewCell" id="yXc-Dh-FCB" customClass="AppliancesTableViewCell" customModule="Home" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="364" width="320" height="170"/>
@@ -770,7 +795,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="c6b-Wf-gKd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="391.60305343511448" y="188.73239436619718"/>
+            <point key="canvasLocation" x="1247" y="187"/>
         </scene>
         <!--Splash View Controller-->
         <scene sceneID="feR-Vu-oZJ">
@@ -905,7 +930,7 @@
         <image name="thermometer 1" width="24" height="24"/>
         <image name="wifiSymbol" width="24" height="24"/>
         <namedColor name="AppBlue">
-            <color red="0.36638826130000002" green="0.63909775020000004" blue="0.90984398129999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+            <color red="0.36470588235294116" green="0.63529411764705879" blue="0.90980392156862744" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
         </namedColor>
         <namedColor name="greyBgColor">
             <color red="0.88235294117647056" green="0.88235294117647056" blue="0.88235294117647056" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
